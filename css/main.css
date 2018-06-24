@@ -1752,6 +1752,13 @@ pre .javascript .function {
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
+  transition: 1.4s all;
+}
+.site-author-image:hover {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -transform: rotate(360deg);
 }
 .site-author-name {
   margin: 0;
@@ -1833,7 +1840,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #4af2f5;
+  background: #f220d5;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2375,13 +2382,6 @@ pre .javascript .function {
 .site-pv .busuanzi-value,
 .page-pv .busuanzi-value {
   margin: 0 5px;
-}
-.site-uv {
-  margin-right: 10px;
-}
-.site-uv::after {
-  content: "|";
-  padding-left: 10px;
 }
 .page-archive .archive-page-counter {
   position: relative;
